@@ -1,6 +1,6 @@
 {
   "name": "@ramz001-cinema/core",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Core utils and shared setup",
   "type": "module",
   "publishConfig": {
@@ -18,6 +18,6 @@
     "@trivago/prettier-plugin-sort-imports": "^6.0.2"
   },
   "exports": {
-    "prettier": "./prettier/prettier.config.mjs"
+    "./prettier": "./src/prettier.config.mjs"
   }
 }
