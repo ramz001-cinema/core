@@ -1,0 +1,23 @@
+{
+  "name": "@ramz001-cinema/core",
+  "version": "1.0.0",
+  "description": "Core utils and shared setup",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": {
+    "name": "Ramz",
+    "email": "rkenjaev1@gmail.com"
+  },
+  "packageManager": "pnpm@10.30.3",
+  "peerDependencies": {
+    "prettier": "^3.8.1"
+  },
+  "dependencies": {
+    "@trivago/prettier-plugin-sort-imports": "6.0.2"
+  },
+  "exports": {
+    "prettier": "./prettier/prettier.config.mjs"
+  }
+}
