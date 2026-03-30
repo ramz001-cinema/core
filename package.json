@@ -1,6 +1,6 @@
 {
   "name": "@ramz001-cinema/core",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Core utils and shared setup",
   "type": "module",
   "publishConfig": {
