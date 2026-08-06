@@ -1,7 +1,7 @@
 {
   "name": "@ramz001-cinema/core",
-  "version": "1.0.7",
-  "description": "Core utils and shared setup",
+  "version": "1.1.0",
+  "description": "Core utils and shared setup configs",
   "type": "module",
   "publishConfig": {
     "access": "public"
@@ -12,9 +12,32 @@
   },
   "packageManager": "pnpm@10.30.3",
   "peerDependencies": {
-    "prettier": "^3.8.1"
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.8.0",
+    "eslint-config-next": "^16.3.0",
+    "eslint-plugin-prettier": "^5.5.6",
+    "globals": "^17.9.0",
+    "prettier": "^3.8.1",
+    "typescript-eslint": "^8.66.0"
+  },
+  "peerDependenciesMeta": {
+    "eslint-config-next": {
+      "optional": true
+    }
   },
   "exports": {
+    "./eslint/core": "./src/eslint/core.config.mjs",
+    "./eslint/nest": "./src/eslint/nest.config.mjs",
+    "./eslint/next": "./src/eslint/next.config.mjs",
     "./prettier": "./src/prettier.config.mjs"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.8.0",
+    "eslint-config-next": "^16.3.0",
+    "eslint-plugin-prettier": "^5.5.6",
+    "globals": "^17.9.0",
+    "prettier": "^3.9.6",
+    "typescript-eslint": "^8.66.0"
   }
 }
