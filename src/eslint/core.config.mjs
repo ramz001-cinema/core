@@ -19,10 +19,6 @@ export default tseslint.config(
 	},
 	{
 		rules: {
-			'@typescript-eslint/consistent-type-imports': [
-				'error',
-				{ prefer: 'no-type-imports' }
-			],
 			'prettier/prettier': ['error', { endOfLine: 'auto' }]
 		}
 	}
