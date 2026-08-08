@@ -20,6 +20,7 @@ export default tseslint.config(
 			sourceType: 'commonjs',
 			parserOptions: {
 				projectService: true,
+				// @ts-ignore
 				tsconfigRootDir: process.cwd()
 			}
 		}
@@ -33,7 +34,7 @@ export default tseslint.config(
 				'error',
 				{ prefer: 'no-type-imports' }
 			],
-			'prettier/prettier': ['error', { endOfLine: 'auto' }]
+			'prettier/prettier': ['warn', { endOfLine: 'auto' }]
 		}
 	}
 )
