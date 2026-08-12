@@ -1,6 +1,6 @@
 {
   "name": "@ramz001-cinema/core",
-  "version": "1.1.2",
+  "version": "1.2.0",
   "description": "Core utils and shared setup configs",
   "type": "module",
   "publishConfig": {
@@ -29,7 +29,9 @@
     "./eslint/core": "./src/eslint/core.config.mjs",
     "./eslint/nest": "./src/eslint/nest.config.mjs",
     "./eslint/next": "./src/eslint/next.config.mjs",
-    "./prettier": "./src/prettier.config.mjs"
+    "./prettier": "./src/prettier.config.mjs",
+    "./tsconfig/nest": "./src/tsconfig/nest.json",
+    "./tsconfig/core": "./src/tsconfig/core.json"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
